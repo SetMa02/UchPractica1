@@ -1,0 +1,44 @@
+﻿<Page x:Class="Pr1.Pages.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pr1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page4">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="5" Orientation="Vertical">
+            <TextBox FontSize="14" BorderThickness="2" Height="200" x:Name="MassOut1"></TextBox>
+            <TextBox FontSize="14" BorderThickness="2" KeyUp="TextBox_KeyUp" Margin="0,25,0,0" x:Name="ElMass1" ></TextBox>
+            <Button x:Name="btnMass1" Click="btnMass1_Click" Margin="0,15,0,0">Сформировать</Button>
+        </StackPanel>
+
+        <StackPanel Margin="5" Orientation="Vertical" Grid.Column="1">
+            <TextBox FontSize="14" BorderThickness="2" Height="200" x:Name="MassOut2"></TextBox>
+            <Button x:Name="btnMass2" Click="btnMass2_Click" Margin="0,15,0,0">Есть ли?</Button>
+        </StackPanel>
+
+
+        <StackPanel Margin="5" Orientation="Vertical"  Grid.Column="2">
+            <TextBox FontSize="14" BorderThickness="2" Height="200" x:Name="MassOut3"></TextBox>
+        </StackPanel>
+
+        <StackPanel Margin="5" Orientation="Vertical"  Grid.Column="4">
+            <TextBox TextWrapping="Wrap"  BorderThickness="2" Height="200" x:Name="MassOut4"></TextBox>
+            <Button x:Name="btnMass4" Click="btnMass4_Click" Margin="0,15,0,0"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
