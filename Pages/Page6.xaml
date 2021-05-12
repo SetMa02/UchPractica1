@@ -35,24 +35,24 @@
 
         <Border BorderThickness="3" Grid.Column="2" BorderBrush="Black" CornerRadius="50" Margin="5">
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock HorizontalAlignment="Center" x:Name="txtZad3"></TextBlock>
-                <Button x:Name="btn3" Margin="10" Content="Создать"></Button>
+                <TextBlock HorizontalAlignment="Center" x:Name="txtZad3" TextWrapping="Wrap" MaxWidth="140" MaxHeight="200"></TextBlock>
+                <Button x:Name="btn3" Margin="10" Content="Создать" Click="btn3_Click"></Button>
             </StackPanel>
         </Border>
 
 
         <Border BorderThickness="3" Grid.Column="3" BorderBrush="Black" CornerRadius="50" Margin="5">
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock HorizontalAlignment="Center" x:Name="txtZad4"></TextBlock>
-                <Button x:Name="btn4" Margin="10" Content="Создать"></Button>
+                <TextBlock HorizontalAlignment="Center" x:Name="txtZad4" TextWrapping="Wrap" MaxWidth="140" MaxHeight="200"></TextBlock>
+                <Button x:Name="btn4" Margin="10" Content="Создать" Click="btn4_ClickAsync"></Button>
             </StackPanel>
         </Border>
 
 
         <Border BorderThickness="3" Grid.Column="4" BorderBrush="Black" CornerRadius="50" Margin="5">
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock HorizontalAlignment="Center" x:Name="txtZad5"></TextBlock>
-                <Button x:Name="btn5" Margin="10" Content="Создать"></Button>
+                <TextBlock HorizontalAlignment="Center" x:Name="txtZad5" TextWrapping="Wrap" MaxWidth="140" MaxHeight="200"></TextBlock>
+                <Button x:Name="btn5" Margin="10" Content="Создать" Click="btn5_Click"></Button>
             </StackPanel>
         </Border>
 
