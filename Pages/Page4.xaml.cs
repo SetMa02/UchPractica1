@@ -39,6 +39,7 @@ namespace Pr1.Pages
                 MassOut2.AppendText(" \n ");
             }
 
+
             for (int i = 0; i < 6; i++)
             {
                 for (int j = 0; j < 6; j++)
